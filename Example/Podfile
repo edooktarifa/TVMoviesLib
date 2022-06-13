@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TVMoviesLib_Example' do
+  pod 'TVMoviesLib', :path => '../'
+
+  target 'TVMoviesLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
