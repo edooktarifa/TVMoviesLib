@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TVMoviesLib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'this library is allbum for view'
   s.swift_version = '4.0'
 
