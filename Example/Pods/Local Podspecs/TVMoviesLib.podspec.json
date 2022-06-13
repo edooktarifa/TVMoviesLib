@@ -1,0 +1,22 @@
+{
+  "name": "TVMoviesLib",
+  "version": "0.1.0",
+  "summary": "A short description of TVMoviesLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/edooktarifa99@gmail.com/TVMoviesLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "edooktarifa99@gmail.com": "edooktarifa99@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/edooktarifa99@gmail.com/TVMoviesLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TVMoviesLib/Classes/**/*"
+}

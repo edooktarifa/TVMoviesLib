@@ -1,0 +1,16 @@
+PODS:
+  - TVMoviesLib (0.1.0)
+
+DEPENDENCIES:
+  - TVMoviesLib (from `../`)
+
+EXTERNAL SOURCES:
+  TVMoviesLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TVMoviesLib: e2329699e10930101ae143d54a347d3fdf161cde
+
+PODFILE CHECKSUM: 1056e4e4a73cbbd2c7ed592bcd48cd78afeb08dd
+
+COCOAPODS: 1.11.3

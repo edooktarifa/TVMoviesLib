@@ -1,0 +1,6 @@
+framework module TVMoviesLib {
+  umbrella header "TVMoviesLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
