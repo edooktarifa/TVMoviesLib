@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		16E3CDA60EC102DE1A47AA9BFD7C71FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		25335430E7CA763A89688782B8422A11 /* Pods-TVMoviesLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 335DA626BDCE86921B5EEF9C9CC2C39E /* Pods-TVMoviesLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3682EB6A28573B3D009CE8A7 /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3682EB6928573B3D009CE8A7 /* CustomKeyboard.swift */; };
+		3682EB6C285740B3009CE8A7 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3682EB6B285740B3009CE8A7 /* CardView.xib */; };
+		3682EB6E285740D4009CE8A7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3682EB6D285740D4009CE8A7 /* CardView.swift */; };
+		3682EB7028574648009CE8A7 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3682EB6F28574648009CE8A7 /* UIView+Extension.swift */; };
 		8E9F886581B41F8BF26EE485C0D5D3B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B1AF692CD64A2DC6E8AA61E1C1C2E7E6 /* Pods-TVMoviesLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D5BDEA15CE3F551902EFA67CB4BA31 /* Pods-TVMoviesLib_Tests-dummy.m */; };
 		CB16AEA3774F576FF3DD790A7925B920 /* TVMoviesLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE24F327E6FA546AC0DC91A4ADC92EE6 /* TVMoviesLib-dummy.m */; };
@@ -43,7 +45,9 @@
 		1D9273A4F8EFF5335786990EA015D5C1 /* TVMoviesLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TVMoviesLib.modulemap; sourceTree = "<group>"; };
 		2163B2B1ADB784FEED4A0E8EF40D4AD7 /* Pods-TVMoviesLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVMoviesLib_Example-Info.plist"; sourceTree = "<group>"; };
 		335DA626BDCE86921B5EEF9C9CC2C39E /* Pods-TVMoviesLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TVMoviesLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		3682EB6928573B3D009CE8A7 /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
+		3682EB6B285740B3009CE8A7 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		3682EB6D285740D4009CE8A7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3682EB6F28574648009CE8A7 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		39C97AA0DA98FCEE00784502E58FBE28 /* Pods-TVMoviesLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVMoviesLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		459D9E48A89192B3648DD6F647DC9211 /* Pods-TVMoviesLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TVMoviesLib_Tests"; path = Pods_TVMoviesLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E9BA97F294C9359953E974689168C3 /* Pods-TVMoviesLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVMoviesLib_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -112,7 +116,9 @@
 		3682EB6628573B13009CE8A7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3682EB6928573B3D009CE8A7 /* CustomKeyboard.swift */,
+				3682EB6B285740B3009CE8A7 /* CardView.xib */,
+				3682EB6D285740D4009CE8A7 /* CardView.swift */,
+				3682EB6F28574648009CE8A7 /* UIView+Extension.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -356,6 +362,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3682EB6C285740B3009CE8A7 /* CardView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +403,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3682EB7028574648009CE8A7 /* UIView+Extension.swift in Sources */,
 				D939EB0ABB30D6E86BFBB4DF08E318EF /* Pods-TVMoviesLib_Example-dummy.m in Sources */,
-				3682EB6A28573B3D009CE8A7 /* CustomKeyboard.swift in Sources */,
+				3682EB6E285740D4009CE8A7 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
