@@ -32,11 +32,18 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
- s.resources = "Classes/*.xib"
-
-   s.resource_bundles = {
-     'TVMoviesLib' => ['Classes/**/*. xib']
-   }
+  s.resources = "Classes/*.xib"
+  s.resource_bundles = {
+    'TVMoviesLib' => [
+        'Classes/**/*.xib'
+    ]
+  }
+  
+# s.resources = "Classes/*.xib"
+#
+#   s.resource_bundles = {
+#     'TVMoviesLib' => ['Classes/**/*. xib']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

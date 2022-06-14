@@ -31,11 +31,14 @@ public final class CardView: UIView {
     }
     
     private func commonInit(){
-        Bundle(for: CardView.self).loadNibNamed("CardView", owner:self, options:nil)
-        
-        addSubview(contentView)
-        contentView.frame = self.bounds
-        contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+    
+        let bundle = Bundle(for: self.CardView)
+        bundle.loadNibNamed("CardView", owner: nil, options: nil)?.first
+//
+//
+//        addSubview(contentView)
+//        contentView.frame = self.bounds
+//        contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     }
     
 }
